@@ -13,71 +13,63 @@ $susy: (
 @include border-box-sizing;
 
 .wrapper {
-  // @include container;
+  @include container;
   max-width: 63em;
 }
 
 
-.navigation {
-  // @include span(4 of 12);
-}
-
-
 .banner {
-  // @include container;
+  @include container;
 }
 
 
 .content {
-  //@include container;
+  @include container;
 }
 
 .article {
 
   &__header {
     margin-top: 2em;
-    // @include span(6 of 12);
-    // @include push(3);
+    @include span(6 of 12);
+    @include push(3);
   }
 
   &__meta {
-    // @include span(3 of 12);
+    @include span(3 of 12);
     text-align: right;
     font-size: 0.15em;
   }
 
   &__body {
-    // @include span(7 of 12);
+    @include span(7 of 12);
   }
 
   &__fancy-quote {
-    // @include span(3 of 6);
-    // @include pull(1 of 6);
+    @include span(3 of 6);
+    @include pull(1 of 6);
   }
 
 }
+
 .related {
-  // @include container;
+  @include container;
 
   .card {
-    // @include span(4 of 12);
+    @include span(4 of 12);
     &:last-child {
-      // @include last;
+      @include last;
     }
 
   }
 }
 
-.featured {
-
-}
-
 .gallery {
-  // @include container;
+  @include container;
 
   &__item {
-    // @include gallery(3);
-    // margin-bottom: gutter(12);
+    @include gallery(3);
+    margin-bottom: gutter(12);
     img {
       display: block;
     }
