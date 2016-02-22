@@ -1,0 +1,7 @@
+app/assets/css/*
+bower_components/*
+node_modules/*
+public/*
+.sass-cache
+.jekyll-metadata
+

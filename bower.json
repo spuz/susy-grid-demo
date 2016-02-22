@@ -1,0 +1,26 @@
+{
+  "name": "susy-grid-demo",
+  "description": "Simple Gulpsetup to compile *.scss to *.css",
+  "main": "index.js",
+  "authors": [
+    "Bernhard Benke"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.12",
+    "breakpoint-sass": "^2.7.0",
+    "normalize-scss": "normalize.scss#^4.0.3"
+  }
+}

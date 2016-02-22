@@ -1,0 +1,17 @@
+{
+  "name": "susy-grid-demo",
+  "version": "1.0.0",
+  "description": "Simple Gulpsetup to compile *.scss to *.css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernhard Benke",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.2.0"
+  }
+}

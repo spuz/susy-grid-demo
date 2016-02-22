@@ -1,0 +1,14 @@
+.card {
+  margin-bottom: 3em;
+  padding: 1em 0.5em 2em;
+  text-align: center;
+  border: 1px solid $light-grey;
+
+  &__icon {
+    text-align: center;
+  }
+
+  &.card_featured {
+    text-align: left;
+  }
+}

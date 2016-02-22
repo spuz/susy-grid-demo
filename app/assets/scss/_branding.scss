@@ -1,0 +1,14 @@
+.branding {
+  color: $brand-color;
+
+  &__logo {
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  &__claim {
+    font-family: $sans;
+    color: $dark-grey;
+  }
+
+}

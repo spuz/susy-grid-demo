@@ -1,0 +1,9 @@
+title: Susy Grid demo
+description: Simple demo site to showcase basic Susy grid features
+
+source: ./app
+destination: ./public
+
+exclude: [
+  "assets/scss"
+]
